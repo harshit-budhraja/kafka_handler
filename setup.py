@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="Harshit Budhraja",
     author_email="harshitbudhraja1301@gmail.com",
-    description="A simple Kafka wrapper package for python based on confluent_kafka.",
+    description="A simple Kafka wrapper based on confluent_kafka python client.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/harshitbudhraja/kafka_handler",
