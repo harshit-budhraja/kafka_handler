@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU GPL v3",
+        "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE V3 (GPLV3)",
         "Operating System :: OS Independent",
     ],
     install_requires=['confluent_kafka;python_version>="3.6"'],
