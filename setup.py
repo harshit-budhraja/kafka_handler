@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="kafka_handler",
-    version="1.0.0",
+    version="1.0.1",
     author="Harshit Budhraja",
     author_email="harshitbudhraja1301@gmail.com",
     description="A simple Kafka wrapper based on confluent_kafka python client.",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU GPL v3",
         "Operating System :: OS Independent",
     ],
     install_requires=['confluent_kafka;python_version>="3.6"'],
