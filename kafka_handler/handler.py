@@ -37,7 +37,7 @@ class Handler():
 
     def produce(self, producer, topic, message):
         if isinstance(producer, Producer) == True:
-            self.logThis("Produced message => \n" + message)
+            self.logThis("Produced message => " + message)
             producer.produce(topic, message, callback=self.on_send_success)
             return True
         else:
